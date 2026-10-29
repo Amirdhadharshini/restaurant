@@ -72,7 +72,7 @@ public class Main {
             try {
                 choice = Integer.parseInt(scanner.nextLine().trim());
             } catch (NumberFormatException e) {
-                System.out.println("Please enter a valid number.");
+                System.out.println("Please enter a correct number.");
                 continue;
             }
 
